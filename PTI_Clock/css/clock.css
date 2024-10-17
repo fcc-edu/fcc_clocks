@@ -1,0 +1,90 @@
+/*
+Styles the page.
+Images and base css (plugin_container, digital_container) taken from HTC HTML CSS script
+*/
+#plugin_container {
+    width:500px;
+    height:3600px;
+    position:relative;
+    left:30%;
+/*   background:url(../images/htc_hero_wallpaper_02.jpg); */
+    overflow:hidden;
+    font-family:Arial, Verdana, Tahoma, Helvetica, sans-serif;
+    color:#fff;
+    top:10%;
+/*    border:1px solid yellow;  */
+}
+
+#plugin_container p {
+    margin:0;
+    padding:0;
+}
+
+#digital_container {
+    width:500px;
+    height:360px;
+/*    border:1px dotted purple; */
+    background:url(../images/background.png) 50% 40px no-repeat;
+    top:40px;
+    left:0;
+    z-index:98;
+}
+
+#clock {
+    float:left;
+    margin-left:48px;
+}
+
+#hours {
+/*     border:1px solid green; */
+     float:left;
+     position:relative;
+     background:url(../images/clockbg1.png);
+     width:200px;
+     height:200px;
+     text-align:center;
+     }
+     
+#mins {
+/*    border:1px solid red; */
+    float:left;
+    position:relative;
+    background:url(../images/clockbg1.png);
+    width:200px;
+    height:200px;
+}
+
+.timetext {
+/*    border:1px dashed blue; */
+    text-align:center;
+    width:100%;
+    color:#000;
+    position:absolute;
+    top:10%;
+    font-size:98pt;
+}
+
+#am_pm {
+    position:relative;
+    color:#000;
+    top:150px;
+    font-weight:bold;
+    font-size:1.5em;
+    margin-right:20px;
+    text-align:right;
+/*    border:1px dotted pink; */
+}
+#welcome {
+    width:100%;
+    height:206px;
+    position:absolute;
+    top:140px;
+    left:0;
+    z-index:105;
+    color:#fff;
+}
+
+#welcome .loading {
+    /*float:left;*/
+    margin:85px auto; 
+}

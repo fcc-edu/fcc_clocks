@@ -1,0 +1,7 @@
+PTI Clock is a clock for Parent Teacher Interviews.
+
+It's look is based on the HTC clock widget and will sound an alarm (alarm.wav) every ten minutes, ie. 00, 10, 20 etc.
+
+All items created by Richard Schwarz are copyright Richard Schwarz and COCT, 2011 and all rights are reserved.
+
+The code is released under the W!PL 2.0, however clock images are not. COCT logo is copyright Christian Outreach College Toowoomba and is not to be used without the College's permission in any way, mode or method.

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>External Exams - Manual Times Clock</title>
+<link rel="stylesheet" type="text/css" href="../css/style.css" />
+<link rel="stylesheet" type="text/css" href="../css/clock.css" />
+<style>
+	#btnTime {
+		display:none;
+		}
+	#btnBlank {
+		display:none;
+		}
+</style>
+</head>
+<body>
+<!-- 
+oops.html and associated js/css etc. as far as written by Richard Schwarz (not including graphics) are released under the W!PL 2.0.
+
+Copyright 2020 Richard Schwarz and FCC, all rights reserved.
+//-->
+<div id="buttonshere"><a href="../index.html"><img src="../images/back_small.png" alt="< Back to menu" title="< Back to menu" /></a>&nbsp;<a href="javascript:location.reload(true);"><img src="../images/refresh_small.png" alt="Reload the page" title="Reload the page"/></a></div>
+<div id="wrap">
+<div id="plugin_container">
+	<div id="digital_container">
+		<div id="clock">
+			<div id="Tick"></div>
+		</div>
+		<div id="welcome"><p class="loading" align="center"><img src="../images/logo-sml.png" align="center">&nbsp;&nbsp;<strong>External Exams - Manual Times</strong></p></div>
+	</div>
+	<div id="tTimes">
+		<table>
+			<tr>
+				<td>Perusal/Planning: </td>
+            	<td>
+                	<span id="tPerusal">
+                		<input type="text">
+        			</span>
+        		</td>
+			</tr>
+			<tr>
+				<td>Start: </td>
+            	<td>
+                	<span id="tStart">
+                    	<input type="text">
+                	</span>
+            	</td>
+			</tr>
+			<tr>
+				<td>10 Minutes: </td>
+            	<td>
+                	<span id="t10">
+                    	<input type="text">
+                	</span>
+            	</td>
+			</tr>
+			<tr>
+				<td>Finish: </td>
+            	<td>
+                	<span id="tFinish">
+                    	<input type="text">
+                	</span>
+            	</td>
+			</tr>
+		</table>
+	</div>
+</div>
+</div>
+<video width="1" height="1" autoplay loop>
+  <source src="../../images/blank_vid.mp4" type="video/mp4" />
+  <source src="../../images/blank_vid.ogg" type="video/ogg" /><!--// used for ensuring the streaming display (e.g. Vivi) refreshes properly -->
+  Your browser does not support the video tag.
+</video>
+<span id="dummy"></span>
+<script src="clock_show.js"></script>
+<script type="text/javascript">show();</script>
+</body>
+</html>

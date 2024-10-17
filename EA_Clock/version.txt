@@ -1,0 +1,22 @@
+version 2.0.0
+_________________________
+
+UPDATE:
+v2.0.0 : 20201026
+	Updated for External Exams
+	Used tables for spacing of timings
+	Manual timings page added
+v1.5.2 : 20140901
+	Update to allow for perusal to be set independantly of the exam start time.
+	This is to reflect the QCS requirements for the starting instructions to be begun to be read out exactly 10 minutes after start of perusal.
+	e.g. perusal: 9:00.00, *start* reading 9:10.00 - could be 60 seconds of instructions, so start exam at 9:11.00
+
+	Changes made to allow for this:
+	Perusal button 
+	On page load hiding of start button
+	On perusal button click - put perusal start time into perusal section
+                        - hide perusal button
+                        - unhide start button
+	on start button click - fill in the rest of the timings (changes made to account for this)
+                      - hide start button
+                      - black placeholder put in place to keep formatting looking okay.

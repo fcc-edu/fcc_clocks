@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>External Exams - 90 Mins Clock</title>
+<link rel="stylesheet" type="text/css" href="../css/style.css" />
+<link rel="stylesheet" type="text/css" href="../css/clock.css" />
+<style>
+	#btnTime {
+		display:none;
+		}
+	#btnBlank {
+		display:none;
+		}
+</style>
+
+</head>
+<body>
+<!-- 
+main_90.html and associated js/css etc. as far as written by Richard Schwarz (not including graphics) are released under the W!PL 2.0.
+
+Copyright 2011 Richard Schwarz and FCC, all rights reserved.
+//-->
+<div id="buttonshere"><a href="../index.html"><img src="../images/back_small.png" alt="< Back to menu" title="< Back to menu" /></a>&nbsp;<a href="javascript:location.reload(true);"><img src="../images/refresh_small.png" alt="Reload the page" title="Reload the page"/></a></div>
+<div id="wrap">
+<div id="plugin_container">
+	<div id="digital_container">
+		<div id="clock">
+			<div id="Tick"></div>
+		</div>
+		<div id="welcome"><p class="loading" align="center"><img src="../images/logo-sml.png" align="center">&nbsp;&nbsp;<strong>External Exams - 90 mins</strong></p></div>
+	</div>
+	<div id="tTimes">
+	<div id="btnPerusal" align="center"><a href="#" onclick='ShowPerusalFN()'><img src="../images/perusal.png" height="60" width="124" /></a></div>
+	<div id="btnTime" align="center"><a href="#" onclick='ShowTimeFN()'><img src="../images/start.png" height="60" width="124"/></a></div>
+	<div id="btnBlank" align="center"><img src="../images/blank.png" width="1" height = "60" /></div>
+		<table>
+			<tr>
+				<td>Perusal/Planning:</td><td>&nbsp;<span id="tPerusal"></span></td>
+			</tr>
+			<tr>
+				<td>Start: </td><td>&nbsp;<span id="tStart"></span></td>
+			</tr>
+			<tr>
+				<td>10 Minutes:</td><td>&nbsp;<span id="t10"></span></td>
+			</tr>
+			<tr>
+				<td>Finish: </td><td>&nbsp;<span id="tFinish"></span></td>
+			</tr>
+		</table>
+	</div>
+</div>
+</div>
+<video width="1" height="1" autoplay loop>
+  <source src="../../images/blank_vid.mp4" type="video/mp4" />
+  <source src="../../images/blank_vid.ogg" type="video/ogg" /><!--// used for ensuring the streaming display (e.g. Vivi) refreshes properly -->
+  Your browser does not support the video tag.
+</video>
+<span id="dummy"></span>
+<script src="90_times.js"></script>
+<script src="clock_show.js"></script>
+
+<script type="text/javascript">show();</script>
+</body>
+</html>

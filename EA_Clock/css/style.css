@@ -1,0 +1,61 @@
+/*
+Styles the page.
+*/
+html, body {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%; 
+    overflow:hidden;
+}
+div {
+border:0px;
+}
+img {
+border:0px;
+}
+body {
+    font: 100.01% "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
+    color: #fff;
+    padding: 0;
+    background-color:#000;
+    overflow:hidden;
+}
+
+#wrap {
+/*    border:1px solid orange; */
+    height:95%;
+    width:95%;
+    overflow:hidden;
+    text-align:center;
+    position:absolute;
+}
+#mnu-thng {
+	width:100%;
+	text-align:left;
+}
+
+#mnu-thng a {
+	color:#77f;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#logosmain {
+	text-align:center;
+	}
+
+#logosmain h1 {
+	font-family: arial,verdana,sans-serif;
+	font-size: 2em;
+	}
+	
+#tTimes td {
+	font-size:1.3em;
+}
+
+input[type="text"] {
+		width:250px;
+		background: #000;
+		color:#fff;
+		font-size:1.3em;
+	}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Freshwater Christian College: Standard Clock</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/clock.css" />
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+<!-- 
+clock.html and associated js/css etc. as far as written by Richard Schwarz (not including graphics) are released under the W!PL 2.0.
+
+Copyright 2016 Richard Schwarz and FCC, all rights reserved.
+//-->
+<div id="wrap">
+<div id="header"><h1>Freshwater Christian College</h1>
+</div>
+<div id="plugin_container">
+	<div id="digital_container">
+		<div id="clock">
+			<div id="Tick"></div>
+		</div>
+		<div id="welcome"><p class="loading" style="text-align:center;"></p></div>
+	</div>
+</div>
+</div>
+<video width="1" height="1" autoplay loop>
+  <source src="../images/blank_vid.mp4" type="video/mp4" />
+  <source src="../images/blank_vid.ogg" type="video/ogg" /><!--// used for ensuring the streaming display (e.g. Vivi) refreshes properly -->
+  Your browser does not support the video tag.
+</video>
+<span id="dummy"></span>
+<script src="inc/clock_show.js"></script>
+<script type="text/javascript">show();</script>
+</body>
+</html>

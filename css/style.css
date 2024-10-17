@@ -1,0 +1,75 @@
+/*
+Styles the page.
+*/
+html, body {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%; 
+    overflow:hidden;
+}
+div {
+border:0px;
+}
+img {
+border:0px;
+}
+body {
+    font: 100.01% "Trebuchet MS", Trebuchet, Tahoma, Verdana, Arial, sans-serif;
+    color: #fff;
+    padding: 0;
+    background-color:#000;
+    overflow:hidden;
+    text-align: center;
+}
+
+#wrap {
+    /*border:1px solid orange;*/
+    height:95%;
+    width:95%;
+    overflow:hidden;
+    text-align:center;
+    position:absolute;
+    margin-left: auto;
+     margin-right: auto;
+}
+
+#clock_links {
+  margin-top:100px;
+  /*border: 1px solid green;*/
+  width: 100%;
+  height: 300px;
+  text-align:center;
+  position:absolute;
+}
+  
+#simple {
+  /*border: 1px dotted yellow;*/
+  width: 33%;
+  height: 150px;
+  float: left;
+  }
+
+#PTI {
+  /*border: 1px dotted cyan;*/
+  width: 33%;
+  height: 150px;
+  float: left;
+  }
+  
+#QCS {
+  /*border: 1px dotted orange;*/
+  width: 33%;
+  height: 150px;
+  float:left;
+  }
+  
+  p.CLTitle {
+  font-size: 1.1 em;
+  font-weight: bold;
+  }
+  
+  p.CLDesc {
+  font-size: 0.9 em;
+  font-weight: normal;
+  margin-top: -5px;
+  }

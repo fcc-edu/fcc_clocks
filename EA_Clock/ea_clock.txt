@@ -1,0 +1,7 @@
+QCS Clock is a clock.
+
+It's look is based on the HTC clock widget.
+
+All items created by Richard Schwarz are copyright Richard Schwarz, COCT 2011, FCC -2016 and all rights are reserved.
+
+The code is released under the W!PL 2.0, however clock images are not. Freshwater Christian College Logo is copyright Freshwater Christian College and not to be used or distributed without permissions.
