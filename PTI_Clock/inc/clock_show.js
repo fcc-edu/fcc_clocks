@@ -26,7 +26,7 @@ if ((minutes % 10) == 0)
   {
    if (seconds==0) 
    {
-     playSound('alarm.wav');
+     playSound('alarm2.wav');
     }
    }
 setTimeout("show()",1000)
